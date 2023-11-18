@@ -10,7 +10,19 @@ namespace Esercizio_1___Classe_prodotto
     {
         private string nome;
         private double prezzo;
+        public Prodotto()
+        {
+            nome = "";
+            prezzo = 0;
+        }
+        public Prodotto(string nome, double prezzo)
+        {
+            this.nome = nome;
+            this.prezzo = prezzo;
+        }
+
     }
+
     internal class Program
     {
         static void Main(string[] args)
