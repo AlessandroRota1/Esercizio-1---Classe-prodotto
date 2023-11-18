@@ -20,7 +20,14 @@ namespace Esercizio_1___Classe_prodotto
             this.nome = nome;
             this.prezzo = prezzo;
         }
-
+        public string ottieninome()
+        {
+            return nome;
+        }
+        public double ottieniprezzo()
+        {
+            return prezzo;
+        }
     }
 
     internal class Program
